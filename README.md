@@ -79,7 +79,7 @@ podman logs legacyapi
 
 Gunakan Postman atau browser.
 
-1. Cek status API
+### 1. Cek status API
 
 GET
 
@@ -93,7 +93,7 @@ Response example:
   "serverTime": "2025-02-12T12:00:00Z"
 }
 
-2. Run Legacy Simulation
+### 2. Run Legacy Simulation
 
 POST
 
@@ -121,7 +121,7 @@ Response example:
   "processedAt": "2025-02-12T12:01:22Z"
 }
 
-🧹 Stop & Remove Container
+## 🧹 Stop & Remove Container
 
 ### Untuk menghentikan API:
 
@@ -132,7 +132,7 @@ podman stop legacyapi
 
 podman rm legacyapi
 
-🏗 CI/CD (GitHub Actions – Optional)
+## 🏗 CI/CD (GitHub Actions – Optional)
 
 Project ini dapat menggunakan pipeline sederhana:
 
