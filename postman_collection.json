@@ -1,0 +1,57 @@
+{
+  "info": {
+    "name": "LegacySimulationApi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Status",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/process/status",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "process",
+            "status"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Run",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"customerId\": \"CUST001\",\n  \"amount\": 1000\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/process/run",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "process",
+            "run"
+          ]
+        }
+      }
+    }
+  ]
+}
