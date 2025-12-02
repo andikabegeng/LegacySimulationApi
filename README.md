@@ -6,7 +6,7 @@ Legacy Simulation API
 A simple .NET Web API that simulates a basic legacy scoring process.
 This project is containerized using Podman and includes scripts to build and run the API locally.
 
-🚀 Features
+## 🚀 Features
 
 .NET 8 Web API
 
@@ -20,7 +20,7 @@ Lightweight container image
 
 Postman-ready endpoints
 
-📦 Requirement
+## 📦 Requirement
 
 Pastikan sudah terinstall:
 
@@ -32,8 +32,8 @@ Pastikan sudah terinstall:
 
 -- Postman (untuk testing)
 
-🛠 Build & Run Menggunakan Podman
-## 1. Build Image
+## 🛠 Build & Run Menggunakan Podman
+### 1. Build Image
 
 Jalankan perintah berikut di root project:
 
@@ -44,7 +44,7 @@ atau bisa menggunakan :
 ./scripts/podman/build_podman.sh
 
 
-## 2. Menjalankan Container
+### 2. Menjalankan Container
 
 API ini listen di port 8080 dalam container, sehingga port mapping harus:
 
@@ -64,7 +64,7 @@ atau bisa menggunakan :
 ./scripts/podman/run_podman.sh
 
 
-## 3. Cek Container
+### 3. Cek Container
 podman ps
 
 
@@ -72,10 +72,10 @@ Harus muncul:
 
 0.0.0.0:8080->8080/tcp
 
-## 4. Lihat Log
+### 4. Lihat Log
 podman logs legacyapi
 
-🧪 Testing API
+## 🧪 Testing API
 
 Gunakan Postman atau browser.
 
@@ -123,12 +123,12 @@ Response example:
 
 🧹 Stop & Remove Container
 
-## Untuk menghentikan API:
+### Untuk menghentikan API:
 
 podman stop legacyapi
 
 
-## Menghapus container:
+### Menghapus container:
 
 podman rm legacyapi
 
