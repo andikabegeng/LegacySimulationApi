@@ -18,11 +18,12 @@ Run with dotnet:
 dotnet run
 ```
 
-Run with Docker:
+Run with Podman:
 ```bash
-docker build -t legacy-sim-api .
-docker run -p 8080:80 legacy-sim-api
+./scripts/podman/build_podman.sh
+./scripts/podman/run_podman.sh
 ```
+
 
 ## Deploy to AWS (short guide)
 1. Build and tag Docker image.
