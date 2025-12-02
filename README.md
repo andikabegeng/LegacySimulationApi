@@ -1,45 +1,147 @@
-# LegacySimulationApi
+📘 README.md – Legacy Simulation API (.NET + Podman)
+Legacy Simulation API
 
-A .NET 8 Web API that simulates a legacy business process. This solution is cloud-ready (Docker) and includes basic logging, configuration, and two REST endpoints.
+A simple .NET Web API that simulates a basic legacy scoring process.
+This project is containerized using Podman and includes scripts to build and run the API locally.
 
-## Endpoints
+🚀 Features
 
-- `GET /api/process/status` — returns API status
-- `POST /api/process/run` — runs the legacy simulation
+.NET 8 Web API
 
-## Run locally
+Endpoint untuk simulasi legacy scoring
 
-Prerequisites:
-- .NET 8 SDK (or change TargetFramework in the csproj to your installed SDK)
-- Docker (optional)
+Endpoint untuk status API
 
-Run with dotnet:
-```bash
-dotnet run
-```
+Podman support (build + run)
 
-Run with Podman:
-```bash
+Lightweight container image
+
+Postman-ready endpoints
+
+📦 Requirement
+
+Pastikan sudah terinstall:
+
+-- .NET 8 SDK (optional untuk development)
+
+-- Podman (bukan Docker)
+
+-- Git
+
+-- Postman (untuk testing)
+
+🛠 Build & Run Menggunakan Podman
+1. Build Image
+
+Jalankan perintah berikut di root project:
+
+podman build -t legacy-sim-api .
+
+atau bisa menggunakan :
+
 ./scripts/podman/build_podman.sh
+
+
+2. Menjalankan Container
+
+API ini listen di port 8080 dalam container, sehingga port mapping harus:
+
+HOST:8080 → CONTAINER:8080
+
+
+Jalankan:
+
+podman run -d \
+  -p 8080:8080 \
+  --name legacyapi \
+  legacy-sim-api
+
+
+atau bisa menggunakan :
+
 ./scripts/podman/run_podman.sh
-```
 
 
-## Deploy to AWS (short guide)
-1. Build and tag Docker image.
-2. Push to AWS ECR.
-3. Create ECS Fargate task and service using the ECR image.
-4. Attach an Application Load Balancer to expose the service.
+3. Cek Container
+podman ps
 
-## Sample Input
-POST /api/process/run
-```json
+
+Harus muncul:
+
+0.0.0.0:8080->8080/tcp
+
+4. Lihat Log
+podman logs legacyapi
+
+🧪 Testing API
+
+Gunakan Postman atau browser.
+
+1. Cek status API
+
+GET
+
+http://localhost:8080/api/process/status
+
+
+Response example:
+
+{
+  "status": "Running",
+  "serverTime": "2025-02-12T12:00:00Z"
+}
+
+2. Run Legacy Simulation
+
+POST
+
+http://localhost:8080/api/process/run
+
+
+Headers
+
+Content-Type: application/json
+
+
+Body
+
 {
   "customerId": "CUST001",
   "amount": 1000
 }
-```
 
-## Notes
-- Replace configuration values in `appsettings.json` as needed.
-- This repository is intentionally minimal to satisfy the technical assessment requirements.
+
+Response example:
+
+{
+  "message": "Process completed",
+  "score": 1851,
+  "processedAt": "2025-02-12T12:01:22Z"
+}
+
+🧹 Stop & Remove Container
+
+Untuk menghentikan API:
+
+podman stop legacyapi
+
+
+Menghapus container:
+
+podman rm legacyapi
+
+🏗 CI/CD (GitHub Actions – Optional)
+
+Project ini dapat menggunakan pipeline sederhana:
+
+build .NET
+
+run unit test
+
+build Podman image (rootless)
+
+optional: push ke registry (GitHub Container Registry)
+
+Pipeline file berada di:
+
+.github/workflows/ci.yml
