@@ -427,7 +427,6 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-# Tambahan umum
 bin/
 obj/
 *.user
