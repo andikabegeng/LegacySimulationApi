@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|c:\\users\\andika.pangestu\\documents\\andika\\test\\axamandiri\\legacysimulationapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|c:\\users\\andika.pangestu\\documents\\andika\\test\\axamandiri\\legacysimulationapi\\setup_repo.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|solutionrelative:setup_repo.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|c:\\users\\andika.pangestu\\documents\\andika\\test\\axamandiri\\legacysimulationapi\\postman_collection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|solutionrelative:postman_collection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|c:\\users\\andika.pangestu\\documents\\andika\\test\\axamandiri\\legacysimulationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|c:\\users\\andika.pangestu\\documents\\andika\\test\\axamandiri\\legacysimulationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|c:\\users\\andika.pangestu\\documents\\andika\\test\\axamandiri\\legacysimulationapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|c:\\users\\andika.pangestu\\documents\\andika\\test\\axamandiri\\legacysimulationapi\\controllers\\processcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,18 +39,6 @@
       "RelativeMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|solutionrelative:services\\processservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|c:\\users\\andika.pangestu\\documents\\andika\\test\\axamandiri\\legacysimulationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|c:\\users\\andika.pangestu\\documents\\andika\\test\\axamandiri\\legacysimulationapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|c:\\users\\andika.pangestu\\documents\\andika\\test\\axamandiri\\legacysimulationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|c:\\users\\andika.pangestu\\documents\\andika\\test\\axamandiri\\legacysimulationapi\\models\\requestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06A5E533-C82F-B751-515A-2D0639E055AD}|LegacySimulationApi.csproj|solutionrelative:models\\requestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,44 +110,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-02T16:13:45.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "setup_repo.sh",
+              "DocumentMoniker": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\setup_repo.sh",
+              "RelativeDocumentMoniker": "setup_repo.sh",
+              "ToolTip": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\setup_repo.sh",
+              "RelativeToolTip": "setup_repo.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA/AAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-12-02T16:13:08.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-02T13:37:14.187Z"
+              "WhenOpened": "2025-12-02T13:37:14.187Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:37:01.95Z"
+              "WhenOpened": "2025-12-02T13:37:01.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "postman_collection.json",
               "DocumentMoniker": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\postman_collection.json",
               "RelativeDocumentMoniker": "postman_collection.json",
               "ToolTip": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\postman_collection.json",
               "RelativeToolTip": "postman_collection.json",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-12-02T13:36:41.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ProcessController.cs",
               "DocumentMoniker": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\Controllers\\ProcessController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProcessController.cs",
@@ -151,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\Models\\ResponseModel.cs",
               "RelativeDocumentMoniker": "Models\\ResponseModel.cs",
@@ -163,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "RequestModel.cs",
               "DocumentMoniker": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\Models\\RequestModel.cs",
               "RelativeDocumentMoniker": "Models\\RequestModel.cs",
@@ -175,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ProcessService.cs",
               "DocumentMoniker": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\Services\\ProcessService.cs",
               "RelativeDocumentMoniker": "Services\\ProcessService.cs",
@@ -187,15 +223,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\andika.pangestu\\Documents\\Andika\\TEST\\AxaMandiri\\LegacySimulationApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-02T13:36:07.627Z"
+              "WhenOpened": "2025-12-02T13:36:07.627Z",
+              "EditorCaption": ""
             }
           ]
         }
