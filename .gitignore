@@ -5,3 +5,10 @@ obj/
 *.suo
 .DS_Store
 *.zip
+
+# Tambahan umum
+bin/
+obj/
+*.user
+*.suo
+.vs/
